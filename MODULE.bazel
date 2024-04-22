@@ -1,0 +1,9 @@
+"rules_gz"
+
+module(
+    name = "rules_gz",
+    version = "0.0.0",
+    compatibility_level = 1,
+)
+
+bazel_dep(name = "buildifier_prebuilt", version = "6.1.2")
